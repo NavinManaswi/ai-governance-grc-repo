@@ -36,7 +36,6 @@ This folder contains the operational protocols for **continuous monitoring** and
 │ (Automated Alerts, Manual Escalation) │
 └─────────────────────────────────────────────────────────────┘
 
-text
 
 ### Incident Severity Tiers
 
