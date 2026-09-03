@@ -1,4 +1,4 @@
-# ai-governance-grc-repo
+# AI-Governance-GRC-Portfolio
 AI Governance GRC Portfolio
 
 # 🤖 AI Governance, Risk & Compliance Portfolio
