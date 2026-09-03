@@ -18,3 +18,37 @@ This folder contains NovaTech's **Use Case Classification Framework (UCCF)** —
 ## 🔑 Key Concepts
 
 ### The Triple-Gate Model
+Gate 1: Absolute Prohibition Filter (Tier 0 / Rejection)
+↓ (Pass)
+Gate 2: High-Risk Trigger Matrix (Tier 1 vs. Tier 2/3)
+↓ (Pass)
+Gate 3: Human Interaction & Transparency Test (Tier 2 vs. Tier 3)
+
+
+### Risk Tiers
+
+| Tier | Regulatory Name | NovaTech Definition |
+|------|-----------------|---------------------|
+| **Tier 0** | Unacceptable Risk | Prohibited practices — REJECTED |
+| **Tier 1** | High-Risk | Full EU AI Act Title III compliance |
+| **Tier 2** | Limited-Risk | Transparency obligations only |
+| **Tier 3** | Minimal-Risk | Baseline security and acceptable use |
+
+---
+
+## 🔗 Dependencies
+
+- **Inputs From:** Business units proposing new AI use cases
+- **Outputs To:** AI Risk Assessments (AIRA), Implementation Guidance, Monitoring
+
+---
+
+## 📊 Classification Statistics (Novatech)
+
+| Tier | Count | Percentage |
+|------|-------|------------|
+| Tier 0 (Rejected) | 0 | 0% |
+| Tier 1 (High-Risk) | 11 | 23% |
+| Tier 2 (Limited) | 23 | 49% |
+| Tier 3 (Minimal) | 13 | 28% |
+| **Total** | **47** | **100%** |
