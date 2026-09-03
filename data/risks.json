@@ -1,0 +1,26 @@
+
+{
+  "risks": [
+    {
+      "id": "CIQ-R01",
+      "system": "CreditIQ",
+      "description": "Algorithmic bias — disparate impact across racial groups",
+      "category": "Fairness / Bias",
+      "inherentRisk": "Critical",
+      "residualRisk": "Medium",
+      "controls": [
+        "Pre-processing bias mitigation (rewighting)",
+        "Hard fairness constraint (EqOdds) during retraining",
+        "Quarterly third-party independent bias audits"
+      ],
+      "owner": "Head of Model Validation",
+      "targetDate": "2026-09-15",
+      "status": "In Progress",
+      "frameworkMapping": {
+        "nist": "FAIRNESS.1",
+        "euAiAct": "Art. 10",
+        "iso42001": "6.1"
+      }
+    }
+  ]
+}
