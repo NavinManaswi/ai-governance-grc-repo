@@ -1,0 +1,22 @@
+{
+  "framework": "NIST AI RMF 1.0",
+  "functions": {
+    "GOVERN": {
+      "controls": [
+        {
+          "id": "GOVERN.1",
+          "description": "AI risk management policies and procedures are established",
+          "euAiActMapping": "Art. 9",
+          "evidenceRequired": ["AI Policy Handbook", "Governance Charter"]
+        }
+      ]
+    },
+    "MAP": { ... },
+    "MEASURE": { ... },
+    "MANAGE": { ... }
+  }
+}
+
+# ======
+
+#The ai-governance-checklist repository provides a NIST AI RMF checklist with 14 controls across Govern/Map/Measure/Manage, cross-referenced to OECD AI Principles. The AI-Audit-Checklists repository offers open-source checklists for EU AI Act compliance, OWASP LLM Top 10, and NIST AI RMF mapping.
