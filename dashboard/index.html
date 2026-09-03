@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Governance Dashboard — NovaTech</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #f5f7fa; padding: 20px; }
+    .dashboard { max-width: 1200px; margin: 0 auto; }
+    .card { background: white; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .metric { display: inline-block; margin-right: 40px; }
+    .metric-value { font-size: 32px; font-weight: bold; }
+    .metric-label { color: #666; font-size: 14px; }
+    .status-pass { color: #2e7d32; }
+    .status-fail { color: #c62828; }
+    .status-warning { color: #f57c00; }
+    .risk-critical { background: #c62828; color: white; padding: 4px 8px; border-radius: 4px; }
+    .risk-high { background: #e65100; color: white; padding: 4px 8px; border-radius: 4px; }
+    .risk-medium { background: #f57c00; color: white; padding: 4px 8px; border-radius: 4px; }
+    .risk-low { background: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <h1>🤖 AI Governance Dashboard</h1>
+    <p>NovaTech Financial Group — Q3 2026</p>
+
+    <div class="card">
+      <h2>📊 Compliance Score</h2>
+      <div class="metric">
+        <div class="metric-value">94%</div>
+        <div class="metric-label">EU AI Act</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value">87%</div>
+        <div class="metric-label">NIST AI RMF</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value">78%</div>
+        <div class="metric-label">ISO 42001</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🟢 Risk Register Summary</h2>
+      <table style="width:100%; border-collapse: collapse;">
+        <tr style="background:#f0f0f0;">
+          <th style="padding:10px; text-align:left;">Risk ID</th>
+          <th style="padding:10px; text-align:left;">Description</th>
+          <th style="padding:10px; text-align:left;">Inherent</th>
+          <th style="padding:10px; text-align:left;">Residual</th>
+          <th style="padding:10px; text-align:left;">Status</th>
+        </tr>
+        <tr>
+          <td style="padding:10px;">CIQ-R01</td>
+          <td style="padding:10px;">Algorithmic bias</td>
+          <td style="padding:10px;"><span class="risk-critical">Critical</span></td>
+          <td style="padding:10px;"><span class="risk-medium">Medium</span></td>
+          <td style="padding:10px;"><span class="status-warning">In Progress</span></td>
+        </tr>
+        <tr>
+          <td style="padding:10px;">CIQ-R02</td>
+          <td style="padding:10px;">Unexplainable outputs</td>
+          <td style="padding:10px;"><span class="risk-high">High</span></td>
+          <td style="padding:10px;"><span class="risk-medium">Medium</span></td>
+          <td style="padding:10px;"><span class="status-warning">In Progress</span></td>
+        </tr>
+        <tr>
+          <td style="padding:10px;">CIQ-R03</td>
+          <td style="padding:10px;">Economic drift</td>
+          <td style="padding:10px;"><span class="risk-high">High</span></td>
+          <td style="padding:10px;"><span class="risk-medium">Medium</span></td>
+          <td style="padding:10px;"><span class="status-fail">Not Started</span></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>📋 Controls Status</h2>
+      <div style="display:flex; gap:20px;">
+        <div style="flex:1; background:#e8f5e9; padding:15px; border-radius:8px;">
+          <h3>✅ Passed</h3>
+          <p style="font-size:28px;">12</p>
+        </div>
+        <div style="flex:1; background:#fff3e0; padding:15px; border-radius:8px;">
+          <h3>🟡 In Progress</h3>
+          <p style="font-size:28px;">4</p>
+        </div>
+        <div style="flex:1; background:#ffebee; padding:15px; border-radius:8px;">
+          <h3>❌ Failed</h3>
+          <p style="font-size:28px;">1</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
